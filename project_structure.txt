@@ -33,7 +33,6 @@ My Deep Learning Framework (SparksNet)/
 │   │   │   ├── __init__.py
 │   │   ├── optim/
 │   │   │   ├── adam.py
-│   │   │   ├── momentum.py
 │   │   │   ├── rms_prop.py
 │   │   │   ├── sgd.py
 │   │   │   ├── __init__.py

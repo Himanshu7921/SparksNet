@@ -1,7 +1,6 @@
 from .sgd import SGD
-from .rms_prop import RMSProp
+from .rms_prop import RMSprop
 from .adam import Adam
-from .momentum import Momentum
 
 
-__all__ = ['SGD', 'RMSProp', 'Adam', 'Momentum']
+__all__ = ['SGD', 'RMSprop', 'Adam']
