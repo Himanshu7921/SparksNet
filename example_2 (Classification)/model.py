@@ -47,9 +47,9 @@ x_test = x_test.reshape(-1, 28 * 28).astype(np.float32) / 255  # Flatten and nor
 
 # Initialize the model
 model = MyModel(in_features=28*28, out_features=10)  # 10 classes for MNIST
-# optimizer = SparksNet.SGD(model.parameters(), lr=0.001, gamma=0.9)
+optimizer = SparksNet.SGD(model.parameters(), lr=0.001, gamma=0.9)
 # optimizer = SparksNet.Adam(model.parameters(), lr=0.001)
-optimizer = SparksNet.RMSprop(model.parameters(), lr=0.001)
+# optimizer = SparksNet.RMSprop(model.parameters(), lr=0.001)
 loss_fn = CrossEntropyLoss()
 
 # Training loop
