@@ -50,7 +50,7 @@ My Deep Learning Framework (SparksNet)/
 1. Clone this repository to your local machine:
 
 ```bash
-git clone https://github.com/yourusername/SparksNet.git
+git clone https://github.com/Himanshu7921/SparksNet
 ```
 
 2. Install the necessary dependencies:
