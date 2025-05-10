@@ -1,0 +1,39 @@
+My Deep Learning Framework (SparksNet)/
+│   ├── generate_project_structure.py
+│   ├── project_structure.txt
+│   ├── README.md
+│   ├── example_1 (Regression)/
+│   │   ├── gradient_descent.py
+│   │   ├── model.py
+│   │   ├── stochastic_gradient_descent.py
+│   ├── example_2 (Classification)/
+│   │   ├── model.py
+│   │   ├── test.csv
+│   │   ├── train.csv
+│   ├── SparksNet/
+│   │   ├── __init__.py
+│   │   ├── activations/
+│   │   │   ├── relu.py
+│   │   │   ├── sigmoid.py
+│   │   │   ├── softmax.py
+│   │   │   ├── tanh.py
+│   │   │   ├── __init__.py
+│   │   ├── core/
+│   │   │   ├── sequential.py
+│   │   │   ├── __init__.py
+│   │   ├── layers/
+│   │   │   ├── linearlayer.py
+│   │   │   ├── __init__.py
+│   │   ├── loss/
+│   │   │   ├── bce_loss.py
+│   │   │   ├── bce_with_logit_loss.py
+│   │   │   ├── cross_entropy_loss.py
+│   │   │   ├── l1_loss.py
+│   │   │   ├── mse_loss.py
+│   │   │   ├── __init__.py
+│   │   ├── optim/
+│   │   │   ├── adam.py
+│   │   │   ├── momentum.py
+│   │   │   ├── rms_prop.py
+│   │   │   ├── sgd.py
+│   │   │   ├── __init__.py
