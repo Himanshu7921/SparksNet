@@ -38,6 +38,7 @@ class Linear:
         self.weight = np.random.rand(input_size, output_size) * 0.01
         self.bias = np.random.rand(output_size)
 
+        
         self.input = None
         self.grad_weight = None
         self.grad_bias = None
