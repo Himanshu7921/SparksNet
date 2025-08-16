@@ -21,7 +21,7 @@ class Linear:
     Example:
         >>> fc = Linear(784, 128)
         >>> out = fc(X)              # Forward pass
-        >>> grad_in = fc.backward(dout)  # Backward pass
+        >>> grad_in = fc.backward(out)  # Backward pass
     """
 
     def __init__(self, input_size: int, output_size: int):
